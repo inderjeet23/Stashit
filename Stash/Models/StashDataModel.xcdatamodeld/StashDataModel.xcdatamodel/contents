@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Bucket" representedClassName="Bucket" syncable="YES" codeGenerationType="class">
+        <attribute name="colorName" optional="NO" attributeType="String" defaultValueString="gray"/>
+        <attribute name="createdAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="customName" optional="YES" attributeType="String"/>
+        <attribute name="icon" optional="NO" attributeType="String" defaultValueString="folder"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="systemName" optional="NO" attributeType="String"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="StashItem" inverseName="bucketEntity" inverseEntity="StashItem"/>
+    </entity>
+    <entity name="StashItem" representedClassName="StashItem" syncable="YES" codeGenerationType="class">
+        <attribute name="bucket" optional="NO" attributeType="String" defaultValueString="inbox"/>
+        <attribute name="confidence" optional="YES" attributeType="Float" defaultValueString="0.0"/>
+        <attribute name="content" optional="YES" attributeType="Binary"/>
+        <attribute name="createdAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isProcessed" optional="NO" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="ocrText" optional="YES" attributeType="String"/>
+        <attribute name="sourceApp" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="NO" attributeType="String"/>
+        <attribute name="updatedAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="userCorrectedBucket" optional="NO" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <relationship name="bucketEntity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bucket" inverseName="items" inverseEntity="Bucket"/>
+    </entity>
+</model>
