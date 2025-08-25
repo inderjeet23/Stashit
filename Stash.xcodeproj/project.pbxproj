@@ -23,6 +23,15 @@
 		1A000108A000001 /* BucketEditModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000108A000000 /* BucketEditModal.swift */; };
 		1A0001091A000001 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0001081A000000 /* DataController.swift */; };
 		1A000109A000001 /* ItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000109A000000 /* ItemsListView.swift */; };
+		B6B5D3072E58AEC600475D07 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5D3052E58AEC600475D07 /* ItemDetailView.swift */; };
+		B6B5D3082E58AEC600475D07 /* QuickAddModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5D3062E58AEC600475D07 /* QuickAddModalView.swift */; };
+		B6B5D3112E58AF000475D07 /* ItemInsights.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5D3102E58AF000475D07 /* ItemInsights.swift */; };
+		B6B5D3212E58B1000475D07 /* BucketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5D31F2E58B1000475D07 /* BucketType.swift */; };
+		B6B5D3222E58B1000475D07 /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5D3202E58B1000475D07 /* ItemType.swift */; };
+		B6B5D3232E58B4000475D07 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5D3242E58B4000475D07 /* DesignSystem.swift */; };
+		B6B5D3262E58B7C00475D07 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5D3272E58B7C00475D07 /* UI.swift */; };
+		B6B5D3282E58B7F00475D07 /* HeroCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5D3292E58B7F00475D07 /* HeroCard.swift */; };
+		B6B5D32A2E58B8200475D07 /* RecentlyAddedCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5D32B2E58B8200475D07 /* RecentlyAddedCarousel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +77,17 @@
 		1A0001081A000000 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		1A000108A000000 /* BucketEditModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketEditModal.swift; sourceTree = "<group>"; };
 		1A000109A000000 /* ItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListView.swift; sourceTree = "<group>"; };
+		B67F0DC42E5C07CF00B20B03 /* StashDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StashDebug.entitlements; sourceTree = "<group>"; };
+		B67F0DC52E5C085500B20B03 /* StashShareExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StashShareExtensionDebug.entitlements; sourceTree = "<group>"; };
+		B6B5D3052E58AEC600475D07 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		B6B5D3062E58AEC600475D07 /* QuickAddModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddModalView.swift; sourceTree = "<group>"; };
+		B6B5D3102E58AF000475D07 /* ItemInsights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInsights.swift; sourceTree = "<group>"; };
+		B6B5D31F2E58B1000475D07 /* BucketType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketType.swift; sourceTree = "<group>"; };
+		B6B5D3202E58B1000475D07 /* ItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemType.swift; sourceTree = "<group>"; };
+		B6B5D3242E58B4000475D07 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		B6B5D3272E58B7C00475D07 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		B6B5D3292E58B7F00475D07 /* HeroCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCard.swift; sourceTree = "<group>"; };
+		B6B5D32B2E58B8200475D07 /* RecentlyAddedCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyAddedCarousel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +109,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A0001001000000 /* Stash */ = {
+		1A0001001000000 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				1A0001001A000000 /* StashApp.swift */,
@@ -97,11 +117,12 @@
 				1A0001060000000 /* Models */,
 				1A0001070000000 /* Services */,
 				1A0001080000000 /* Extensions */,
+				B6B5D3252E58B4000475D07 /* Utils */,
 				1A0001031A000000 /* Assets.xcassets */,
 				1A0001040000000 /* Info.plist */,
 				1A0001051000000 /* Preview Content */,
 			);
-			path = Stash;
+			name = "";
 			sourceTree = "<group>";
 		};
 		1A0001002000000 /* Products */ = {
@@ -116,7 +137,8 @@
 		1A000100D000000 = {
 			isa = PBXGroup;
 			children = (
-				1A0001001000000 /* Stash */,
+				B67F0DC42E5C07CF00B20B03 /* StashDebug.entitlements */,
+				1A0001001000000 /*  */,
 				1A0001021000001 /* StashShareExtension */,
 				1A0001002000000 /* Products */,
 				1A000102A000000 /* Frameworks */,
@@ -126,6 +148,7 @@
 		1A0001021000001 /* StashShareExtension */ = {
 			isa = PBXGroup;
 			children = (
+				B67F0DC52E5C085500B20B03 /* StashShareExtensionDebug.entitlements */,
 				1A0001020000000 /* ShareViewController.swift */,
 				1A0001030000000 /* Info.plist */,
 			);
@@ -145,7 +168,10 @@
 			children = (
 				1A0001011A000000 /* ContentView.swift */,
 				1A000109A000000 /* ItemsListView.swift */,
+				B6B5D3052E58AEC600475D07 /* ItemDetailView.swift */,
+				B6B5D3062E58AEC600475D07 /* QuickAddModalView.swift */,
 				1A00010A0000000 /* Dashboard */,
+				B6B5D32C2E58B8200475D07 /* Dashboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,6 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				1A000101A000002 /* StashDataModel.xcdatamodeld */,
+				B6B5D31F2E58B1000475D07 /* BucketType.swift */,
+				B6B5D3202E58B1000475D07 /* ItemType.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -171,6 +199,7 @@
 			children = (
 				1A0001081A000000 /* DataController.swift */,
 				1A000104A000000 /* DataController+Dashboard.swift */,
+				B6B5D3102E58AF000475D07 /* ItemInsights.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -189,6 +218,24 @@
 				1A000106A000000 /* BucketCardView.swift */,
 				1A000107A000000 /* BucketGridView.swift */,
 				1A000108A000000 /* BucketEditModal.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		B6B5D3252E58B4000475D07 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B6B5D3242E58B4000475D07 /* DesignSystem.swift */,
+				B6B5D3272E58B7C00475D07 /* UI.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B6B5D32C2E58B8200475D07 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B6B5D3292E58B7F00475D07 /* HeroCard.swift */,
+				B6B5D32B2E58B8200475D07 /* RecentlyAddedCarousel.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -293,6 +340,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B5D32A2E58B8200475D07 /* RecentlyAddedCarousel.swift in Sources */,
+				B6B5D3282E58B7F00475D07 /* HeroCard.swift in Sources */,
+				B6B5D3262E58B7C00475D07 /* UI.swift in Sources */,
+				B6B5D3232E58B4000475D07 /* DesignSystem.swift in Sources */,
+				B6B5D3212E58B1000475D07 /* BucketType.swift in Sources */,
+				B6B5D3222E58B1000475D07 /* ItemType.swift in Sources */,
+				B6B5D3112E58AF000475D07 /* ItemInsights.swift in Sources */,
+				B6B5D3072E58AEC600475D07 /* ItemDetailView.swift in Sources */,
+				B6B5D3082E58AEC600475D07 /* QuickAddModalView.swift in Sources */,
 				1A0001021A000001 /* ContentView.swift in Sources */,
 				1A000101B000001 /* StashDataModel.xcdatamodeld in Sources */,
 				1A0001091A000001 /* DataController.swift in Sources */,
@@ -331,13 +387,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StashDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Stash/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "$(SRCROOT)/Preview";
 				DEVELOPMENT_TEAM = Y2T4SB2J97;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Stash/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -363,11 +420,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Stash/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "$(SRCROOT)/Preview";
 				DEVELOPMENT_TEAM = Y2T4SB2J97;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = Stash/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -495,7 +552,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -508,6 +565,7 @@
 		1A0001031000001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = StashShareExtension/StashShareExtensionDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y2T4SB2J97;
